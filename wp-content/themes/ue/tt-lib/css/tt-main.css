@@ -186,7 +186,6 @@ i.skynav:hover {
 	left:0;
 	margin:0.1em 0 0 0;
 	z-index: 44;
-	height:115px;
 	}
 
 img.logo-img {
@@ -245,14 +244,18 @@ img.logo-img {
 .navbar-default .navbar-brand:hover {
     color:#411f1e;
 }
+.navbar-header {
+    background-color:#e3e5e5;
+}
 .navbar-toggle .icon-bar {
     display: block;
     width: 22px;
     height: 2px;
     border-radius: 0px;
+    background-color: white;
 }
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #411f1e;
+    background-color: white;
 }
 .navbar-toggle {
     position: relative;
@@ -261,11 +264,11 @@ img.logo-img {
     margin-top: 8px;
     margin-right: 15px;
     margin-bottom: 8px;
-    background-color: transparent;
-    background-image: none;
+    background-color:#3b3b3c;
     border: 1px solid #411f1e;
     border-radius: 4px;
 }
+
 .nav > li > a {
     color:gray;
     text-decoration:none;
@@ -324,7 +327,9 @@ ul.dropdown-menu {
     background: gray;
     border-top:1px solid white !important;
 }
-
+.navbar-nav .open .dropdown-menu {
+	background-color: #7d7f7f;
+}
 /*Callout*/
 h3.callout-message {
     color:white;
@@ -451,7 +456,7 @@ h3.callout-message {
 }
 .ql-logo {
     position: relative;
-    top:center;
+    top:15%;
     left:center;
     z-index: 55;
 }
@@ -772,6 +777,10 @@ and (max-width : 992px) and (min-width : 769px) {
 
 @media only screen 
 and (max-width : 768px) {
+
+.navbar-collapse {
+	margin-top:3.0em;
+}
     
 #social .pull-right {
 }
@@ -791,7 +800,6 @@ and (max-width : 768px) {
 }
 .ql-logo {
     position: relative;
-    top:-50px;
     left:center;
     z-index: 55;
 }

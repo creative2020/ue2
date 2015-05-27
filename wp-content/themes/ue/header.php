@@ -26,15 +26,33 @@
     
 <div id="logo" class="row"><!--logo-->
     <a class="home-link" href="<?php echo get_option('home'); ?>"></a>
-    	<div id="logo-container" class="col-sm-10 col-sm-offset-1 col-md-offset-2 col-md-8 col-lg-offset-3 col-lg-6">
+    	<div id="logo-container" class="hidden-xs col-sm-10 col-sm-offset-1 col-md-offset-2 col-md-8 col-lg-offset-3 col-lg-6">
     		<img class="logo-img" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-h.png">
+    	</div>
+    	<div id="logo-container-mobile" class="col-xs-12 visible-xs-block">
+    		<p class="text-center"><img class="" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-xs.png">
+    		<a href="tel:913-647-9400"><h2 class="phone-m col-xs-12 text-center"><i class="fa fa-phone"></i> 913.647.9400</h2></a>
+    		</p>
     	</div>
     
 </div><!--logo-->
         
-<div id="navbar-bg" class="row"><!-- row -->
+<div id="navbar-bg" class="row hidden-xs"><!-- row -->
 </div> <!-- row -->
-    
+
+<!--Mobile menu    -->
+<div class="row">    
+<div class="navbar-header visible-xs">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand">Menu</a>
+    </div>
+<!--Mobile menu    -->
+</div>    
 <div class="row"><!-- row -->
     <div id="navbar" class="col-sm-12"> <!-- nav -->
                        
