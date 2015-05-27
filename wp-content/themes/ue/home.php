@@ -5,7 +5,7 @@ Template Name: Home
 ?>
 <?php get_header(); ?>
 
-<div class="row slider hidden-xs">
+<div class="row slider">
     <?php echo do_shortcode('[image-carousel]'); ?>
 </div>
 

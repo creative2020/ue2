@@ -30,7 +30,7 @@
     		<img class="logo-img" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-h.png">
     	</div>
     	<div id="logo-container-mobile" class="col-xs-12 visible-xs-block">
-    		<p class="text-center"><img class="" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-xs.png">
+    		<p class="text-center"><img class="logo-mobile" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-xs.png">
     		<a href="tel:913-647-9400"><h2 class="phone-m col-xs-12 text-center"><i class="fa fa-phone"></i> 913.647.9400</h2></a>
     		</p>
     	</div>
