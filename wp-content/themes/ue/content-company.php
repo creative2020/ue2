@@ -58,7 +58,7 @@
                     
     <div class="row tt-search excerpt-<?php echo $cat_name ?>" style="background:<?php echo $bg_color; ?>;;padding:0.5em;border-bottom:0px solid #cccccc">
         <?php echo do_shortcode('[tt_rule id="'.$title.'" top="y"]'); ?>
-        <div class="col-sm-3">
+        <div class="company-logo col-sm-3">
             <?php if ( has_post_thumbnail() ) { ?>
             
                 <img src="<?php echo $image_info[0]; ?>" class="img-responsive">
@@ -71,8 +71,8 @@
             <?php } ?>
         </div>
 
-        <div class="col-sm-9">
-            <h2><?php echo $tt_pre_title; ?> <?php the_title(); ?></h2>
+        <div id="family-of-companies" class="col-sm-9">
+            <h2 class="hidden-xs"><?php echo $tt_pre_title; ?> <?php the_title(); ?></h2>
             
                 <p><?php the_content(); ?></p>
             <a class="btn btn-grey btn-md pull-right" href="<?php echo $company_website[0]; ?>" target="_blank"><i class="fa fa-external-link-square"></i> Visit website</a>

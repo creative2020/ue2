@@ -13,8 +13,8 @@
 <div class="container-fluid"> <!-- container header footer -->
 
 <div class="row"><!--row-->
-    <div id="skynav" class="col-xs-12 pull-right"><!--skynav-->
-        <div class="col-xs-12 hidden-xs"><!--col-->
+    <div id="skynav" class="hidden-xs col-xs-12 pull-right"><!--skynav-->
+        <div class="col-xs-12"><!--col-->
 			<p class="pull-right" style="font-size:0.8em;">
 				<a href="/user-login/estimating-opportunities/"><i class="fa fa-user skynav"></i>Subcontractors</a>
 			</p>
@@ -30,9 +30,7 @@
     		<img class="logo-img" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-h.png">
     	</div>
     	<div id="logo-container-mobile" class="col-xs-12 visible-xs-block">
-    		<p class="text-center"><img class="logo-mobile" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-xs.png">
-    		<a href="tel:913-647-9400"><h2 class="phone-m col-xs-12 text-center"><i class="fa fa-phone"></i> 913.647.9400</h2></a>
-    		</p>
+    		<p class="text-center"><img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-h.png"></p>
     	</div>
     
 </div><!--logo-->
