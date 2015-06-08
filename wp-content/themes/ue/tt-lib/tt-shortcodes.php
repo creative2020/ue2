@@ -357,11 +357,15 @@ $output .= '<div class="row estimate-main-wrapper">'; //main-wrap
 //get section html
     ob_start(); ?>
         <div class="row estimate-header hidden-xs" style="padding:1.0em 0;background:#cccccc;">
-            <div class="col-sm-2">Date</div>
-            <div class="col-sm-4">Project</div>
-            <div class="col-sm-2">Location</div>
-            <div class="col-sm-2">Budget</div>
-            <div class="col-sm-2">Contact</div>
+	        <div class="col-sm-9">
+	            <div class="col-sm-2">Date</div>
+	            <div class="col-sm-5">Project</div>
+	            <div class="col-sm-2">Location</div>
+	            <div class="col-sm-3">Budget</div>
+	        </div>
+	        <div class="col-sm-3">
+	            <div class="col-sm-2">Contact</div>
+	        </div>
         </div>
     <?php
         $output .= ob_get_contents();

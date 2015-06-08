@@ -55,7 +55,7 @@ p {
     color:#411f1e;
 }
 a {
-    color:#411f1e;
+    color:#742a43;
 }
 a:hover {
     color:#a32a2e;
@@ -543,6 +543,15 @@ dd.gallery-caption {
 .estimate-name {
     font-size:1.2em;
     color:#802528;
+}
+.est-desc {
+	float:left;
+	margin-left:-1.5em;
+	margin-top:0.4em;
+	display:none;
+}
+.estimate:hover .est-desc {
+	display:block;
 }
 /*Content Main*/
 #main {
